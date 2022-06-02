@@ -1,0 +1,197 @@
+.left{
+    display: flex;
+    font-style:inherit;
+}
+.center{
+    display: flex;
+    align-items:stretch;
+    margin-top:25px;
+}
+.right{
+    display: flex;
+    align-items: center;
+  
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color:plum;
+}
+.container{
+    margin: 20px;
+    display: flex;
+}
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .box-head {
+    background-color: #f1f1f1;
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+  }
+  main{
+height: 500px;
+  }
+
+
+.in-para{
+  background-color: lightsalmon;
+  width: 100px;
+  padding: 20px;
+}
+
+
+.box-head4 {
+  background-color: #f1f1f1;
+  padding: 10px;
+  text-align: center;
+  font-size: 25px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.container4/*{
+  clear: both;
+  margin-bottom: 50px;
+  
+}*/
+.container-flex{
+  display: block;
+  display: flex;
+  justify-content: space-between;
+}
+
+/*.flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+  
+  flex-direction: column;
+  
+}*/
+
+.flex-container > div {
+  display: flex;
+  flex-wrap: nowrap;
+  
+  flex-direction: column;
+  
+  background-color: red;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.columns{
+  clear: both;
+  display: flex;
+  display: block;
+}
+.flex-container {
+  clear: both;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-container > div {
+  background-color:teal;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+
+}
+
+a{
+ margin: 5px;
+}
+.login{
+  color: white;
+  background-color: black;
+  padding: 20px;
+}
+.name{
+  font-size: 20px;
+}
+h1{
+font-size: 30px;
+}
+
+div.sticky {
+  position: sticky;
+  /* position: sticky; */
+  top: 200px;
+   background-color: darkblue; 
+  width: 50px;
+  padding: 10px;
+  font-size: 20px;
+  float: right;
+}
+
+
+/* -------------------------------------- */
+
+
+.container-5{
+  clear: both;
+  display: block;
+  display: flex;
+  margin-top: 50px;
+}
+
+.multi-flex-container > div{
+  display:flex;
+  background-color: pink;
+  width: 100px;
+  margin: 10px;
+  text-align:start;
+  line-height: 75px;
+  font-size: 30px;
+  /* flex-direction: ; */
+  justify-content: center;
+  /*flex-wrap: wrap;*/
+}
+.navbar {
+  background-color:aquamarine;
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Style the links inside the navigation bar */
+.navbar a {
+  float:right;
+  display: block;
+  color:black;
+  text-align: right;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.navbar a:hover {
+  background-color:aquamarine;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.navbar a.active {
+  background-color: #04AA6D;
+  color: white;
+  text-align: center;
+}
+
